@@ -1,0 +1,15 @@
+.navbar-default{
+  background-color: #40b4de;
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color:#1f6cc4;
+}
+.navbar-default .navbar-brand{
+  color: #2016db;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #4f20a1
+}
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color:#22a14a;
+}

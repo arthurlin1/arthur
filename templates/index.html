@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/static/style.css'
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://last0817--yoyolin0401.repl.co">arthur</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="https://www.facebook.com/">facebook</a></li>
+          <li><a href="https://www.youtube.com/channel/UCySIBYjHlNFXznCIJwKhv4g/featured?view_as=subscriber">youtube</a></li>
+          <li><a href="http://surviv.io/">game</a></li>
+        </ul> 
+      </div>
+    </nav>
+    <div class='container'>
+      <div class='col-md-4'>
+        <image class='img-thumbnail img-responsive'    src='/static/a.gif '>
+        
+        
+      </div>
+      <div class='col-md-8'>
+         <h2><span class="glyphicon glyphicon-search"></span>member</h2>        
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>name</th>
+                  <th>career</th>
+                  <th>statue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>arthur</td>
+                  <td>student</td>
+                  <td>little brother</td>
+                </tr>
+                <tr>
+                  <td>eunice</td>
+                  <td>student</td>
+                  <td>sister</td>
+                </tr>
+                <tr>
+                  <td>flora</td>
+                  <td>teacher</td>
+                  <td>mother</td>
+                </tr>
+                <tr>
+                  <td>pig</td>
+                  <td>teacher</td>
+                  <td>father</td>
+                </tr>
+              </tbody>
+            </table>
+      </div>  
+    </div>
+    <div class='container'>
+      <div class='col-md-8 col-md-offset-4' >
+        <table class="table">
+          <thead>
+            <tr>
+              <th class='danger'>things</th>
+              <th class='info'>chapter</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            {% for c in cat %}
+            <tr>
+              <td><a href='/category/{{c[0]}}'>{{c[0]}}</a></td>
+              <td>{{c[1]}}篇</td>
+            </tr>      
+            {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
