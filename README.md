@@ -5,7 +5,7 @@
 
 ## 成品展示
 [我的作品](https://arthursap.herokuapp.com/)
-![](https://github.com/grand-coder/pythondiary/raw/master/index.png)
+![]()
 
 ## 使用技術
 --------- | ---------
