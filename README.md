@@ -5,7 +5,7 @@
 
 ## 成品展示
 [我的作品](https://arthursap.herokuapp.com/)
-![]()
+![](https://github.com/arthurlin1/arthur/raw/master/mine.png)
 
 ## 使用技術
 --------- | ---------
