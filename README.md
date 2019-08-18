@@ -8,6 +8,7 @@
 ![](https://github.com/arthurlin1/arthur/raw/master/mine.png)
 
 ## 使用技術
+工具 | 用途
 --------- | ---------
 PYTHON 3 | 程式編寫
 flask in python | 需要import的東西 
